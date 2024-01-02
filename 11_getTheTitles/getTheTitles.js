@@ -1,4 +1,11 @@
-const getTheTitles = function() {
+const getTheTitles = function(obj) {
+
+    let titles = []; 
+    obj.map(
+        (book) =>{titles.push(book.title)}
+    );
+    
+    return titles;
 
 };
 
